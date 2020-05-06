@@ -29,7 +29,7 @@ public class HadoopLogAnalyzesApplication {
 			HadoopContext.init();
 			// 初始化定时任务
 			TimerContext.init();
-			log.info("启动成功====");
+			log.info("启动成功======");
 		}catch (Exception e) {
 			e.printStackTrace();
 		}
