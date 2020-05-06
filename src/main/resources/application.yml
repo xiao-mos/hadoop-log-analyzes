@@ -1,0 +1,9 @@
+#端口
+server:
+  port: 8088
+###日志配置
+logging:
+  config: classpath:logback-boot.xml
+
+#tldSkipPatterns: derbyLocale_*.jar,jaxb-api.jar,jsr173_1.0_api.jar,jaxb1-impl.jar,activation.jar
+hadoop.urls: hdfs://192.168.1.238:9000/
